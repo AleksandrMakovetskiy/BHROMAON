@@ -1,0 +1,75 @@
+.banner {
+  background-image: url("../images/valley.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  min-height: 766px;
+  padding-top: 300px;
+}
+
+.choose {
+  background-image: url("../images/fortress.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.pool {
+  background-image: url("../images/pool.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  padding-top: 122px;
+}
+
+.sunset {
+  background-image: url("../images/sunset.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 122px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+.tourist {
+  background-image: url("../images/tourist.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  min-height: 731px;
+  padding-top: 118px;
+
+  &__wrap {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: $desktop) {
+      display: block;
+    }
+  }
+}
+
+.footer {
+  background-color: #232323;
+  width: 100%;
+  max-width: 1770%;
+  height: 271px;
+  padding-top: 122px;
+}

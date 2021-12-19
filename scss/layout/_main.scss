@@ -1,0 +1,169 @@
+.choose__info {
+  display: flex;
+  min-height: 685px;
+  align-items: center;
+  padding-top: 46px;
+
+  @media screen and (max-width: 1500px) {
+    display: block;
+    flex-direction: column;
+  }
+}
+
+.choose__article {
+  width: 50%;
+}
+
+.choose__picture {
+  width: 50%;
+
+  @media screen and (max-width: 1500px) {
+    display: none;
+    }
+  }
+
+.choose__wrap {
+  width: 560px;
+  height: 342px;
+  margin-left: 314px;
+
+  @media screen and (max-width: 1500px) {
+    max-width: 100%;
+    margin-left: 150px;
+  }
+}
+
+.button {
+  width: 228px;
+  height: 63px;
+  background-color: $color-secondary-blue;
+  margin-top: 15px;
+  font-family: $font-aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+    &:active {
+      background-color: lightslategray;
+    }
+
+  @media screen and (max-width: 1500px) {
+    width: 114px;
+    height: 31px;
+    font-size: 8px;
+  }
+}
+
+.hut {
+  text-align: center;
+  margin-right: 110px;
+}
+
+.canyon {
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.icon {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+  height: 340px;
+  align-items: center;
+
+  @media screen and (max-width: $tablet-min) {
+    display: block;
+    text-align: center;
+    padding-top: 90px;
+  }
+
+  &__search {
+    padding-left: 199px;
+  }
+
+  &__book {
+    padding-right: 118px;
+  }
+}
+
+.icon_img {
+  cursor: pointer;
+
+  @media screen and (max-width: $desktop-large ) {
+    width: 31px;
+    height: 31px;
+  }
+}
+
+.spain {
+  width: 540px;
+  height: 371px;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  margin-left: 318px;
+
+  @media screen and (max-width: $notebook ) {
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    left: 17%;
+    right: 50%;
+    /*margin: 0 auto;*/
+  }
+}
+
+.button {
+  margin-top: 46px;
+  margin-left: 17px;
+}
+
+.sunset__spain {
+  width: 540px;
+  height: 371px;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  margin-right: 318px;
+
+  @media screen and (max-width: $notebook ) {
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    left: 50%;
+    right: 17%;
+    /*margin: 0 auto;*/
+  }
+}
+
+.pic {
+  background-image: url("../images/adidas.jpg");
+  width: 445px;
+  height: 284px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.sumon {
+  width: 668px;
+  height: 287px;
+  background-color: #333333;
+  padding-left: 48px;
+
+  @media screen and (max-width: $desktop) {
+    padding-right: 48px;
+    max-width: 358px;
+  }
+
+
+  @media screen and (max-width: $desktop) {
+    width: 445px;
+    height: 650px;
+  }
+}

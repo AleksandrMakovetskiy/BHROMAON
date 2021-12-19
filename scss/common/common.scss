@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  /*max-width: $container-width;*/
+}
+
+a, p, h2, h5 {
+  text-decoration: none;
+  color: $color-basic-white;
+}
