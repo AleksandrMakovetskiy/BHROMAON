@@ -120,6 +120,12 @@ table {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .search_text {
+    font-size: 9px;
+  }
+}
+
 .nav__logo {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
@@ -285,6 +291,11 @@ table {
 
 .fa-linkedin-in {
   color: #5474FD;
+}
+
+.fa-search {
+  opacity: 0.5;
+  padding: 2px;
 }
 
 .search {
