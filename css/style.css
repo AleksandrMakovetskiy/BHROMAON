@@ -148,6 +148,7 @@ table {
 }
 
 .scroll {
+  display: grid;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
@@ -155,6 +156,10 @@ table {
   font-size: 14px;
   letter-spacing: 2.8px;
   margin-top: -29px;
+}
+
+.fa-chevron-down {
+  color: #FFFFFF;
 }
 
 .choose__title {

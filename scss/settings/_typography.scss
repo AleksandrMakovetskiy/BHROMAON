@@ -84,6 +84,7 @@
 }
 
 .scroll {
+  display: grid;
   text-align: center;
   font-family: $font-josefin-sans;
   font-style: normal;
@@ -91,6 +92,10 @@
   font-size: 14px;
   letter-spacing: 2.8px;
   margin-top: -29px;
+}
+
+.fa-chevron-down {
+  color: $color-basic-white;
 }
 
 .choose__title {
