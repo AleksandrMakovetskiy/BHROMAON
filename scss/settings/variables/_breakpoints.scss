@@ -1,4 +1,4 @@
 $desktop-large  : 1440px;
-$desktop        : 1024px;
+$desktop        : $desktop-large - 1;
 $tablet-min     : 768px;
 $tablet-max     : $desktop - 1;

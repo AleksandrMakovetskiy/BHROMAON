@@ -1,6 +1,6 @@
 .headline {
   color: $color-basic-white;
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-weight: bold;
   font-size: 48px;
   letter-spacing: 4.8px;
@@ -13,7 +13,7 @@
 
 .subtitle {
   color: $color-basic-white;
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-size: 22px;
   letter-spacing: 6.82px;
   font-weight: normal;
@@ -25,7 +25,7 @@
 }
 
 .search__input {
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-size: 14px;
   font-weight: normal;
   letter-spacing: 2.8px;
@@ -45,7 +45,7 @@
       outline: none;
       margin-left: -5px;
       padding: 0;
-      font-family: $font-aleo;
+      font-family: $font-secondary;
       font-size: 14px;
       letter-spacing: 1.4px;
       font-style: normal;
@@ -65,18 +65,34 @@
 }
 
 .nav__logo {
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-size: 24px;
   letter-spacing: 2.4px;
   font-weight: bold;
-  margin-left: 69px;
+  margin-left: -27px;
+  margin-right: 53px;
     @media screen and (max-width: $tablet-min) {
       display: none;
   }
 }
 
+.nav__logo-item {
+  @media screen and (max-width: $tablet-min) {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    margin: 2px;
+    width: 100%;
+    text-align: center;
+  }
+  &:hover {
+    background-color: #373C3F;
+    transition: all 0.5s ease-out;
+    box-shadow: 0 1px 3px;
+  }
+}
+
 .nav__link {
-  font-family: $font-aleo;
+  font-family: $font-secondary;
   font-size: 14px;
   font-weight: normal;
   word-spacing: 3px;
@@ -86,7 +102,7 @@
 .scroll {
   display: grid;
   text-align: center;
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -99,46 +115,51 @@
 }
 
 .choose__title {
-  font-family: $font-aleo;
+  font-family: $font-secondary;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
-  padding-bottom: 58px;
+  padding-bottom: 47px;
 
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: $notebook-max ) {
     text-align: center;
   }
 }
 
 .choose__desc {
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   letter-spacing: 1.6px;
   line-height: 27px;
-  margin-bottom: 27px;
+  margin-bottom: 23px;
 
   @media screen and (max-width: $desktop-large ) {
-    margin-left: -69px;
     text-align: justify;
   }
 }
 
 .icon__text {
-  font-family: $font-aleo;
+  font-family: $font-secondary;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
-  margin-left: -61px;
+  cursor: pointer;
+  margin: 0 90px;
 
   @media screen and (max-width: $desktop-large ) {
   font-size: 18px;
   }
+
+  @media screen and (max-width: $desktop) {
+    margin: 0;
+    padding: 25px;
+  }
 }
 
 .spain__title {
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -149,7 +170,7 @@
 }
 
 .spain__madrid {
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -159,7 +180,7 @@
 }
 
 .spain__text {
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -169,7 +190,7 @@
 }
 
 .tourist__subtitle {
-  font-family: $font-aleo;
+  font-family: $font-secondary;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -178,7 +199,7 @@
 }
 
 .sumon__subtitle {
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -187,7 +208,7 @@
 }
 
 .sumon__text {
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -203,7 +224,7 @@
 .footer__logo {
   display: flex;
   justify-content: center;
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -215,7 +236,7 @@
 .footer__text {
   display: flex;
   justify-content: center;
-  font-family: $font-josefin-sans;
+  font-family: $font-primary;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -224,7 +245,7 @@
 }
 
 .fab {
-  padding-left: 25px;
+  padding: 0 12px;
 }
 
 .fa-linkedin-in {
